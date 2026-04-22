@@ -4,13 +4,11 @@
 - [ ] Learn about [GitHub Pages](https://skills.github.com/#first-day-on-github).
 - [ ] Convert my first blog post into an actual webpage.
 ## Review
-- 项目1
-- 议题1
-- 第三项
+Convert an image or video from dark mode to light mode using [ffmpeg](https://www.ffmpeg.org)
 
-1. 第一步
-2. 第二步
-3. 第三步
+```bash
+ffmpeg -i input.mp4 -vf "negate,hue=h=180,eq=contrast=1.2:saturation=1.1" output.mp4
+```
 
-- [x] 任务完成
-- [ ] 任务未完成
+
+
